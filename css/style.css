@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    background-color: #FFBFBF;
+}
+
+img{
+   max-width: 100%;
+   display: block;
+}
+
+main, footer, .card{
+max-width: 1000px;
+margin: auto;
+padding: 20x;
+}
+
+.card {
+    display: flex; 
+    gap:20px;
+    background: #fff;
+    margin-bottom: 120px;
+}
+
+.card .img {
+    width: 30%;
+}
+
+.card p{
+    width: 70%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FF7676;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+img.home{
+    max-width: 30%;
+margin-left: 50px;
+}
+p.lente{
+    max-width: 20%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+input.barra{
+ max-width: 800px;
+height: 60px;
+
+align-items: center;
+display: flex;
+justify-content: center;
+font-size:25px !important;
+color: grey;
+border: 1px;
+border-radius: 50px;
+padding-left: 50px ;
+}
+.p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li.signin{
+    max-width: 35%;
+    margin-right: 50px;
+}
+header ul.ricerca{
+    list-style-type: none;
+    display: flex;
+}
+
+.barra{
+    margin-left: auto;
+   margin-right: auto;
+}
+
+section.hero{
+border-radius: 20px;
+text-align: center;
+font-size: 128px;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+.p2{
+    margin-left: 50%;
+    margin-right: 0;
+}
+.grid {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 10px;
+}
+
+main div.card {
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+
+main div img.homeimg {
+    padding: 20px;
+}
+
+
+
+main div.card h2 {
+    padding: 20px;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+vertical-align: middle;
+padding-top: 50%;
+padding-bottom: 50%;
+}
+
+div.aboutus{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+main div.card p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+footer ul {
+    text-align: center;
+    padding: 0;
+    border-top:5px solid #FF7676;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size:  14px;
+    color: #444;
+    display: flex;
+    justify-content: center;  
+     list-style-type: none;
+     gap: 30px;
+     }
+
+
+.illustratore{
+    font-size: 96px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+div.bio h2{
+color: #646464;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.works h2{
+    color: #646464;
+font-family: 'Source Sans Pro', sans-serif;
+margin-top: 100px;
+}
+
+div.bio p{
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start ;
+}
+
+p
+div.bio2 p{
+    font-size: 24px;
+margin-top: 150px;
+}
+
+ul.illustrazioni{
+    max-height: 50%;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+p.fineabout{
+    margin-bottom: 200px;
+}
+
+@media (max-width:400px) {
+section.hero{
+    font-size: 30px;
+}
+}
+
+@media (max-width:400px) {
+   section.grid div.card h2{
+    font-size: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    section.grid div.card img{
+     width: 100000px;
+     }
+ }
+
+@media (max-width:400px) {
+    section.grid div.card p{
+     font-size: 0px;
+     }
+ }
+
+ @media (max-width:400px) {
+    section.grid div.card {
+    width: 320px;
+     }
+ }
+
+ @media (max-width:400px) {
+    section.grid div.aboutus h2{
+     font-size: 20px;
+     margin-right: 120px ;
+     }
+ }
+
+ @media (max-width:400px) {
+  footer ul li{
+     font-size: 10px;
+     }
+ }
+
+ @media (max-width:400px) {
+    section.illustratore h1{
+     font-size: 40px;
+     }
+ }
+
+ @media (max-width:400px) {
+    div.bio p{
+     font-size: 15px;
+     margin: 8%;
+     }
+ }
+
+ @media (max-width:400px) {
+    div.bio h2{
+     font-size: 20px;
+     margin: 8%;
+     }
+ }
+
+ @media (max-width:400px) {
+    div.works h2{
+     font-size: 20px;
+     margin-left: 8%;
+     }
+ }
+
+ @media (max-width:400px) {
+    div.works ul.illustrazioni{
+gap: 10px;
+     }
+ }
